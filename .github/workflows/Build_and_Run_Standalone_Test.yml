@@ -60,7 +60,8 @@ jobs:
         then
           #/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
           #brew uninstall gcc gfortran
-          #brew install gcc@9
+          #brew install gcc@11
+          brew install --cask gfortran
           ./configure 5
         fi
 
